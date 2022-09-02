@@ -1,0 +1,31 @@
+{
+  "name": "ndtnf-13",
+  "version": "1.0.0",
+  "description": "\"# ndtnf-13\"",
+  "main": "app.js",
+  "scripts": {
+    "build": "./node_modules/.bin/tsc --project ./tsconfig.json --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikhailShakhanov/ndtnf-13.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MikhailShakhanov/ndtnf-13/issues"
+  },
+  "homepage": "https://github.com/MikhailShakhanov/ndtnf-13#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "@typescript-eslint/parser": "^5.36.1",
+    "eslint": "^8.23.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.5",
+    "eslint-plugin-promise": "^6.0.1",
+    "typescript": "^4.8.2"
+  }
+}
